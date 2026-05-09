@@ -1,0 +1,16 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="60" y1="60" x2="60" y2="340" stroke="black" stroke-width="2"/>
+<line x1="60" y1="83.33333333333331" x2="540" y2="83.33333333333331" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/>
+<text x="300.0" y="385" font-family="Arial" font-size="14" text-anchor="middle">Configuration</text>
+<text x="20" y="200.0" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90, 20, 200.0)">Binding Energy (eV)</text>
+  <rect x="100.0" y="83.33333333333331" width="106.66666666666667" height="233.33333333333337" fill="#3498db" stroke="black" stroke-width="1"/>
+  <text x="153.33333333333334" y="360" font-family="Arial" font-size="12" text-anchor="middle">c1</text>
+  <text x="153.33333333333334" y="336.6666666666667" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">-2.031</text>
+  <rect x="260.0" y="83.33333333333331" width="106.66666666666667" height="228.56985552247613" fill="#3498db" stroke="black" stroke-width="1"/>
+  <text x="313.3333333333333" y="360" font-family="Arial" font-size="12" text-anchor="middle">c2</text>
+  <text x="313.3333333333333" y="331.90318885580945" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">-1.989</text>
+  <rect x="420.0" y="83.33333333333331" width="106.66666666666667" height="209.89923093656307" fill="#3498db" stroke="black" stroke-width="1"/>
+  <text x="473.3333333333333" y="360" font-family="Arial" font-size="12" text-anchor="middle">c3</text>
+  <text x="473.3333333333333" y="313.2325642698964" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">-1.827</text>
+</svg>

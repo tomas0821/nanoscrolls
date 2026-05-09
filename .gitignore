@@ -1,0 +1,33 @@
+# Quantum Espresso Large Files
+*.save/
+*.wfc*
+*.mix*
+*.ig*
+*.hub*
+*.occ*
+*.pot*
+*.rho*
+*.charge-density
+*.xml
+*.pwi
+out/
+/scratch/
+
+# Slurm Logs
+slurm-*.out
+*.err
+*.out
+
+# Binaries and Compressed files
+gh.tar.gz
+gh_cli/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# MacOS
+.DS_Store

@@ -1,0 +1,47 @@
+&CONTROL
+    calculation = 'relax'
+    prefix = 'alcl4'
+    pseudo_dir = '/home/tomas.rojas_s/pseudo/'
+    outdir = './out'
+    nstep = 200
+    etot_conv_thr = 1.0D-5
+    forc_conv_thr = 1.0D-4
+/
+&SYSTEM
+    ibrav = 0
+    nat = 5
+    ntyp = 2
+    ecutwfc = 45.0
+    ecutrho = 360.0
+    occupations = 'smearing'
+    smearing = 'mp'
+    degauss = 0.02
+    vdw_corr = 'dft-d3'
+/
+&ELECTRONS
+    conv_thr = 1.0D-8
+    mixing_beta = 0.7
+/
+&IONS
+    ion_dynamics = 'bfgs'
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Al 26.9815385 Al.pbe-n-kjpaw_psl.1.0.0.UPF
+Cl 35.45 Cl.pbe-n-kjpaw_psl.1.0.0.UPF
+
+K_POINTS gamma
+
+CELL_PARAMETERS angstrom
+50.00000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 50.00000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 7.40451720000000
+
+ATOMIC_POSITIONS angstrom
+Al           26.8983812816       33.6530067332        3.2181030300
+Cl           27.6268881373       33.8540042560        1.1891431997
+Cl           26.9259316650       35.5047441239        4.3059620879
+Cl           28.1784454699       32.1975294688        4.2399737953
+Cl           24.8662384443       32.9269774067        3.1350328987
