@@ -52,13 +52,13 @@ Determining the energy barriers for $AlCl_4^-$ de-intercalation.
 
 ## GitHub Repository Management
 
-This project is hosted on GitHub for version control and collaboration.
+This project is hosted on GitHub at **https://github.com/tomas0821/nanoscrolls**.
 
 ### 1. Initial Setup (on a new machine)
 If the repository is not yet cloned:
 ```bash
-git clone https://github.com/USERNAME/ns.git
-cd ns
+git clone https://github.com/tomas0821/nanoscrolls.git
+cd nanoscrolls
 ```
 
 ### 2. Common Workflow
