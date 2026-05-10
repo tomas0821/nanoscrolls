@@ -1,5 +1,5 @@
 &CONTROL
-    restart_mode = 'from_scratch'
+    restart_mode = 'restart'
     calculation = 'relax'
     prefix = 'ns'
     pseudo_dir = '/home/tomas.rojas_s/pseudo/'

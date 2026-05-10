@@ -41,14 +41,14 @@ Determining the energy barriers for $AlCl_4^-$ de-intercalation.
 1.  **Radial Path (Gallery Exit):**
     *   **Steps 1-4:** Smooth descent from -3897.1336 to -3897.1630 Ry.
     *   **Step 5:** Slight energy increase to -3897.1581 Ry (+0.06 eV), marking the exit onset.
-    *   **Step 6:** Running (Current force: 0.0027 Ry/au).
+    *   **Step 6:** Running (Current energy: -3897.1539 Ry). Energy increasing as expected for exit barrier.
 
 2.  **Axial Path (Longitudinal Exit):**
     *   **Step 1 (Mouth):** -3886.3163 Ry.
     *   **Step 2 (Bulk Min):** -3886.5476 Ry (Global minimum of the axial segment).
     *   **Steps 3-5:** Energy climbing from -3886.5445 to -3886.5300 Ry.
     *   **Barrier:** Current barrier of **+0.24 eV** relative to the axial minimum (Step 2).
-    *   **Step 6:** Running.
+    *   **Step 6:** Running (Current energy: -3886.5106 Ry). Still climbing.
 
 ## GitHub Repository Management
 
